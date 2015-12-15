@@ -62,6 +62,8 @@ from spynnaker.pyNN.models.spike_source.spike_source_array \
     import SpikeSourceArray
 from spynnaker.pyNN.models.spike_source.spike_source_from_file \
     import SpikeSourceFromFile
+from spynnaker.pyNN.models.spike_source.spike_source_remote \
+    import SpikeSourceDeterministicRate, SpikeSourcePoissonRate, SpikeSourcePoissonRBF, SpikeSourceDeterministicRBF
 
 # connections
 from spynnaker.pyNN.models.neural_projections.connectors.all_to_all_connector\
