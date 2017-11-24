@@ -13,6 +13,7 @@
 #endif
 
 // Compute the size of the input buffers and ring buffers
+#define INPUT_BUFFER_SIZE (1 << (SYNAPSE_INPUT_TYPE_BITS + SYNAPSE_INDEX_BITS))
 #define RING_BUFFER_SIZE (1 << (SYNAPSE_DELAY_BITS + SYNAPSE_INPUT_TYPE_BITS\
                                 + SYNAPSE_INDEX_BITS))
 

@@ -15,8 +15,13 @@
 //---------------------------------------
 // Macros
 //---------------------------------------
+#ifndef SYNAPSE_TYPE_BITS
 #define SYNAPSE_TYPE_BITS 1
+#endif
+
+#ifndef SYNAPSE_TYPE COUNT
 #define SYNAPSE_TYPE_COUNT 2
+#endif
 
 #include "../decay.h"
 #include <debug.h>
